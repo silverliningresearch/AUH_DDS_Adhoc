@@ -59,12 +59,13 @@ function initCurrentTimeVars() {
   
   console.log("current_period: ", current_period);
   switch(current_period) {
-    case "2023-12":      
-      total_quota = 1000;
-      break;      
+    case "2024-10":      
+    case "2024-11":      
+      total_quota = 3500;
+      break;    
 
-    default:
-      total_quota = 7000;
+      default:
+      total_quota = 3500;
       break;
   }
 }
